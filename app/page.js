@@ -28,7 +28,7 @@ export default function Home() {
             <div className="md:hidden">
               <button
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
-                className="text-slate-900 hover:text-slate-500 focus:outline-none"
+                className="text-emerald-600 hover:text-slate-500 focus:outline-none"
               >
                 <svg
                   className="w-6 h-6"
@@ -53,7 +53,7 @@ export default function Home() {
                 <a
                   href="#home"
                   onClick={(e) => handleScroll(e, "#home")}
-                  className="text-slate-900 hover:text-slate-500 uppercase"
+                  className="text-emerald-900 hover:text-slate-500 uppercase"
                 >
                   Home
                 </a>
@@ -62,7 +62,7 @@ export default function Home() {
                 <a
                   href="#achievements"
                   onClick={(e) => handleScroll(e, "#achievements")}
-                  className="text-slate-900 hover:text-slate-500"
+                  className="text-emerald-900 hover:text-slate-500"
                 >
                   Achievements
                 </a>
@@ -71,7 +71,7 @@ export default function Home() {
                 <a
                   href="#matches"
                   onClick={(e) => handleScroll(e, "#matches")}
-                  className="text-slate-900 hover:text-slate-500"
+                  className="text-emerald-900 hover:text-slate-500"
                 >
                   Matches
                 </a>
@@ -80,7 +80,7 @@ export default function Home() {
                 <a
                   href="#videos"
                   onClick={(e) => handleScroll(e, "#videos")}
-                  className="text-slate-900 hover:text-slate-500"
+                  className="text-emerald-900 hover:text-slate-500"
                 >
                   Videos
                 </a>
@@ -89,7 +89,7 @@ export default function Home() {
                 <a
                   href="#about"
                   onClick={(e) => handleScroll(e, "#about")}
-                  className="text-slate-900 hover:text-slate-500"
+                  className="text-emerald-900 hover:text-slate-500"
                 >
                   About Me
                 </a>
@@ -98,7 +98,7 @@ export default function Home() {
                 <a
                   href="#contact"
                   onClick={(e) => handleScroll(e, "#contact")}
-                  className="text-slate-900 hover:text-slate-500"
+                  className="text-emerald-900 hover:text-slate-500"
                 >
                   Contact
                 </a>
@@ -114,7 +114,7 @@ export default function Home() {
                   <a
                     href="#home"
                     onClick={() => setIsMenuOpen(false)}
-                    className="text-slate-900 hover:text-slate-500 block"
+                    className="text-emerald-900 hover:text-slate-500 block"
                   >
                     Home
                   </a>
@@ -123,7 +123,7 @@ export default function Home() {
                   <a
                     href="#achievements"
                     onClick={() => setIsMenuOpen(false)}
-                    className="text-slate-900 hover:text-slate-500 block"
+                    className="text-emerald-900 hover:text-slate-500 block"
                   >
                     Achievements
                   </a>
@@ -132,7 +132,7 @@ export default function Home() {
                   <a
                     href="#matches"
                     onClick={() => setIsMenuOpen(false)}
-                    className="text-slate-900 hover:text-slate-500 block"
+                    className="text-emerald-900 hover:text-slate-500 block"
                   >
                     Matches
                   </a>
@@ -141,7 +141,7 @@ export default function Home() {
                   <a
                     href="#videos"
                     onClick={() => setIsMenuOpen(false)}
-                    className="text-slate-900 hover:text-slate-500 block"
+                    className="text-emerald-900 hover:text-slate-500 block"
                   >
                     Videos
                   </a>
@@ -150,7 +150,7 @@ export default function Home() {
                   <a
                     href="#about"
                     onClick={() => setIsMenuOpen(false)}
-                    className="text-slate-900 hover:text-slate-500 block"
+                    className="text-emerald-900 hover:text-slate-500 block"
                   >
                     About Me
                   </a>
@@ -159,7 +159,7 @@ export default function Home() {
                   <a
                     href="#contact"
                     onClick={() => setIsMenuOpen(false)}
-                    className="text-slate-900 hover:text-slate-500 block"
+                    className="text-emerald-900 hover:text-slate-500 block"
                   >
                     Contact
                   </a>
@@ -188,15 +188,15 @@ export default function Home() {
 
         {/* Text Content */}
         <div className="relative z-10 max-w-7xl mx-auto px-6 text-center">
-          <h1 className="text-5xl md:text-7xl font-bold text-white">
-            Naseer Ullah Mahsud
+          <h1 className="text-7xl md:text-9xl font-bold text-emerald-400">
+            Naseer Ullah Khan
           </h1>
-          <p className="mt-2 text-xl md:text-2xl text-gray-200">
+          <p className="mt-6 text-5xl md:text-5xl text-emerald-200">
             Professional Cricketer
           </p>
           <a
             href="#achievements"
-            className="mt-4 inline-block px-6 py-3 bg-slate-500 text-white hover:bg-slate-800 rounded-lg"
+            className="mt-8 inline-block px-6 py-3 bg-emerald-600 text-white hover:bg-slate-700 rounded-lg uppercase"
           >
             See My Achievements
           </a>
@@ -204,45 +204,117 @@ export default function Home() {
       </section>
 
       {/* Achievements Section */}
-      <section id="achievements" className="py-16 bg-gray-50 text-center px-4">
-        <h2 className="text-3xl font-bold text-gray-800">My Achievements</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mt-8">
-          <div className="bg-white p-6 rounded-lg shadow">
-            <h3 className="text-xl text-gray-800">Achievement 1</h3>
-            <p className="text-gray-600">Details about your achievement.</p>
-          </div>
-          <div className="bg-white p-6 rounded-lg shadow">
-            <h3 className="text-xl text-gray-800">Achievement 2</h3>
-            <p className="text-gray-600">Details about your achievement.</p>
-          </div>
-          <div className="bg-white p-6 rounded-lg shadow">
-            <h3 className="text-xl text-gray-800">Achievement 3</h3>
-            <p className="text-gray-600">Details about your achievement.</p>
-          </div>
-        </div>
-      </section>
+<section id="achievements" className="py-16 bg-gray-50 text-center px-4">
+  <h2 className="text-3xl font-bold text-gray-800">My Achievements</h2>
+  <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mt-8">
+    {/* Card 1 */}
+    <div className="bg-white p-6 rounded-lg shadow">
+      <img
+        src="naseer.jpg" /* Replace with your image path */
+        alt="Achievement 1"
+        className="w-full h-48 object-scale-down rounded-t-lg"
+      />
+      <h3 className="mt-4 text-xl font-bold text-gray-800">Achievement 1</h3>
+      <p className="mt-2 text-gray-600">
+        Details about your achievement. This text describes your accomplishment and its significance.
+      </p>
+    </div>
 
-      {/* Matches Section */}
-      <section id="matches" className="py-16 bg-gray-100 px-4 text-center">
-        <h2 className="text-3xl font-bold text-gray-800">Matches Played</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mt-8">
-          <div className="bg-white p-6 rounded-lg shadow">
-            <h3 className="text-xl font-bold text-gray-800">Match 1 - Date</h3>
-            <p className="text-gray-600">
-              Details about your match performance.
-            </p>
-          </div>
-          {/* Additional Match Cards */}
-        </div>
-      </section>
+    {/* Card 2 */}
+    <div className="bg-white p-6 rounded-lg shadow">
+      <img
+        src="naseer1.jpg" /* Replace with your image path */
+        alt="Achievement 2"
+        className="w-full h-48 object-scale-down rounded-t-lg"
+      />
+      <h3 className="mt-4 text-xl font-bold text-gray-800">Achievement 2</h3>
+      <p className="mt-2 text-gray-600">
+        Details about your achievement. Highlight your success story and key highlights of this achievement.
+      </p>
+    </div>
+
+    {/* Card 3 */}
+    <div className="bg-white p-6 rounded-lg shadow">
+      <img
+        src="naseer2.jpg" /* Replace with your image path */
+        alt="Achievement 3"
+        className="w-full h-48 object-scale-down rounded-t-lg"
+      />
+      <h3 className="mt-4 text-xl font-bold text-gray-800">Achievement 3</h3>
+      <p className="mt-2 text-gray-600">
+        Details about your achievement. Mention the impact or value of this accomplishment.
+      </p>
+    </div>
+  </div>
+</section>
+
+
+     {/* Matches Section */}
+<section id="matches" className="py-16 bg-gray-100 px-4 text-center">
+  <h2 className="text-3xl font-bold text-gray-800">Matches Played</h2>
+  <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mt-8">
+    {/* Match Card 1 */}
+    <div className="bg-white p-6 rounded-lg shadow">
+      <img
+        src="naseer.jpg" /* Replace with your image path */
+        alt="Match 1"
+        className="w-full h-48 object-contain rounded-t-lg"
+      />
+      <h3 className="mt-4 text-xl font-bold text-gray-800">Match 1 - Date</h3>
+      <p className="mt-2 text-gray-600">
+        Details about your match performance. This is a brief overview of how you performed during this match.
+      </p>
+    </div>
+
+    {/* Match Card 2 */}
+    <div className="bg-white p-6 rounded-lg shadow">
+      <img
+        src="naseer2.jpg" /* Replace with your image path */
+        alt="Match 2"
+        className="w-full h-48 object-contain rounded-t-lg"
+      />
+      <h3 className="mt-4 text-xl font-bold text-gray-800">Match 2 - Date</h3>
+      <p className="mt-2 text-gray-600">
+        Details about your match performance. Highlight key moments and statistics from the match.
+      </p>
+    </div>
+
+    {/* Match Card 3 */}
+    <div className="bg-white p-6 rounded-lg shadow">
+      <img
+        src="naseer3.jpg" /* Replace with your image path */
+        alt="Match 3"
+        className="w-full h-48 object-cover rounded-t-lg"
+      />
+      <h3 className="mt-4 text-xl font-bold text-gray-800">Match 3 - Date</h3>
+      <p className="mt-2 text-gray-600">
+        Details about your match performance. Provide insights into the match and your personal contribution.
+      </p>
+    </div>
+
+    {/* Additional Match Cards can be added in the same way */}
+  </div>
+</section>
+
 
       {/* Videos Section */}
       <section id="videos" className="py-16 bg-gray-50 text-center px-4">
         <h2 className="text-3xl font-bold text-gray-800">Videos</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mt-8">
+        <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mt-8">
+          
+        <div className="bg-white p-6 rounded-lg shadow">
+            <video className="w-full" controls>
+              <source src="naseer batting.mp4" type="video/mp4" />
+            </video>
+          </div>
           <div className="bg-white p-6 rounded-lg shadow">
             <video className="w-full" controls>
-              <source src="/video.mp4" type="video/mp4" />
+              <source src="naseer batting.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div className="bg-white p-6 rounded-lg shadow">
+            <video className="w-full" controls>
+              <source src="naseer batting.mp4" type="video/mp4" />
             </video>
           </div>
         </div>
@@ -278,7 +350,7 @@ export default function Home() {
           ></textarea>
           <button
             type="submit"
-            className="px-6 py-3 bg-slate-500 text-white rounded-lg hover:bg-slate-800"
+            className="px-6 py-3 bg-emerald-600 text-white rounded-lg hover:bg-slate-800"
           >
             Send Message
           </button>
